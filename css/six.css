@@ -1,6 +1,9 @@
 html {
     background-color: #212124;
 }
+body {
+    touch-action: pan-y;
+}
 @font-face {
     font-family: "Pusia";
     src: url(fonts\Pusia-Bold.otf);
@@ -1940,4 +1943,5 @@ summary {
     font-size: 35px;
 }
 }
+
 

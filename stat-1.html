@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/six.css" rel="stylesheet" type="text/css">
+    <link href="css/stat-1.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/swiper-bundle.css"/>
+    <link href="css/buttons.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Сads Sites</title>
+</head>
+<header>
+    <a class="cads-title" href="index.html" style="text-decoration: none;"> Cads </a>
+    <a class="cads-contacts" href="contacts.html"> Контакты </a>
+    <a class="cads-uslg" href="services.html"> Услуги </a>
+    <a class="cads-about-us" href="about-us.html"> О нас </a>
+    <a class="cads-stats" href="stats.html"> Статьи </a>
+    <a class="vk-a" href="https://vk.com/cadssites"> 
+      <img class="vk-a-img" src="https://i.imgur.com/ohzImgX.png">
+    </a>
+    <a class="inst-a" href="https://www.instagram.com/share/BAdoIIs-wH"> 
+        <img class="inst-a-img" src="https://i.imgur.com/sV3othS.png">
+    </a>
+    <input type="checkbox" id="burger-toggle">
+    <label for="burger-toggle" class="label-header">
+    <span></span>
+    </label>
+    <ul class="header-list">
+        <a class="cads-title-ul" href="index.html" style="text-decoration: none;"> Cads </a>
+        <a class="cads-contacts-ul" href="contacts.html"> Контакты </a>
+        <a class="cads-uslg-ul" href="services.html"> Услуги </a>
+        <a class="cads-about-us-ul" href="about-us.html"> О нас </a>
+        <a class="cads-stats-ul" href="stats.html"> Статьи </a>
+    </ul>
+</header>
+<body>
+    <h1 class="title-of-stat">Термин "bottleneck": как подобрать видеокарту к процессору?</h1>
+    <div class="line-stat-1"></div>
+    <h1 class="author">Wisdom, 05.12.2024</h1>
+    <div class="gen-text">
+        <p class="first-st-txt" style="float: right;">
+            <img class="f-img-st-1" style="float: right;" src="https://i.imgur.com/aHMEJe0.png">Всем же хочется иметь довольно мощный компьютер, который будет тянуть все современные игры на высоких настройках? Думаю, да. Для достижения этой цели вендоры, производители с каждым годом пытаются всё больше совершенствовать выпускаемые ими комплектующие. Например, RTX 5090, которая должна выйти в январе 2025 года, обладает огромным графическим процессором, и, я подозреваю, толстенный радиатор. Или тот же свежевышадший I9 13900KS с TDP в 253Вт и рабочей температурой до 100 градусов.</p>
+            <img class="rtx5090" src="https://i.imgur.com/81B25vz.jpeg">
+            <span class="rtx5090-l">Огромный чип RTX 5090</span>
+            <img class="i9" src="https://i.imgur.com/LktNu2V.jpeg">
+            <span class="I9-l">Новенький i9-14900KS</span>
+            <p class="second-st-txt"><img class="rx580-2048SP" src="https://i.imgur.com/vWso39K.png" style="position: relative; top: 0px; float: left; border-radius: 15px; margin-right: 19px; margin-bottom: 7px;"><img class="atermiterx79" src="https://i.imgur.com/t65FI0K.png">Но, как известно, не у всех геймеров (или майнеров) есть деньги на 5090 и I9, или, в принципе, на какой-нибудь мощный комплект. Поэтому, вследствие отстутствия денег часто происходит так: кто-то берёт слабую видюху, например, GT 710, и довольно мощный процессор, например, дешёвенький xeon e5-2650v4. Цена комплекта выходит достаточно низкая, но из-за недостаточной мощности видеокарты она "душит" процессор (из-за этого наблюдается снижение fps и увеличение вероятности выхода из строя более слабых по производительности комплектующих в обоих случаях). Также, такая несправедливость может происходить и по отношению к видеокарте, допустим, кто-то возьмёт старенький i3-2130 и к нему с aliexpress возьмёт франкинштейн-RX580 2048SP. При таком раскладе видеокарта практически не нагружается, а процессор пашет что есть сил. Что же это такое? Здесь подходит термин "bottleneck". Давайте посмотрим его описание в "википедии": "В программной инженерии bottleneck возникает, когда производительность приложения или компьютерной системы ограничена одним компонентом, как горлышко бутылки, замедляющее общий поток воды. Узкое место имеет самую низкую пропускную способность из всех частей пути транзакции". Простыми словами, "bottleneck" - это явление, когда один компонент в системе сильно уступает другому и из-за этого замедляет скорость работы.
+                Сразу скажу, я не сторонник xeon-овых сборок или сборок с такими некро-картами, ведь даже при "вкусной" цене  они часто умирают после покупки (что неудивительно, ведь чаще всего их собирают, хранят в стра-а-ашных китайских подвалах).</p>
+                <span class="x79-l">Китайская X79G v.1.21</span>
+            <p class="third-st-txt"><img class="screenshot-e5-2650v4" src="https://i.imgur.com/1jnQ2tk.png">Итак, давайте посмотрим, что будет, если поставить в компьютер неравные по производительности процессор и видеокарту. Для этого я подготовил 4 возможных случая - 2 из них - уже рассмотренные нами неравноценные сборки, остальные 2 случая - то, как должно быть.
+                Первый случай - xeon e5-2650v4 в паре с gt710. Посмотрим их тесты: для этого я взял игру Valorant на низких настройках. Думаю, протестим все 4 варианта в этой игре. В первом случае у нас выходит 35-45 кадров, что для такой динамичной игры - довольно мало, и не годится для комфортного гейминга.
+                </p>
+                <span class="scr-l">GT710 и Xeon e5-2650v4 в Valorant</span>
+                <p class="fourth-st-txt"><img class="screenshot-from-site" src="https://i.imgur.com/o6ycN8G.png">Во втором случае предлагаю исправить ситуацию, и как раз, ответить на вопрос в названии статьи: как подобрать видеокарту к процессору? Для достижения этой цели создана страница сайта <a href='https://www.dxdigitals.info/2017/04/podbor-videokarti-pod-processor.html'>Dxdigitals</a>.
+                    Заходим на этот сайт, пролистываем вниз до "Все процессоры 2009-2024 годов:" Аналог нашего xeona это Intel Core i7-7700, выбираем его и получаем, что лучшая видеокарта для него, исходя из теста, это RTX 3050. Давайте протестим Valorant именно с ней: получаем в среднем 343 fps с сайта <a href="https://pc-builds.com/ru/">Pc-builds</a>. Тоже годный сайт, кстати.
+                    </p>
+                    <span class="scr-fs">Где выбрать процессор на сайте:</span>
+                    <p class="fifth-st-txt">Давайте рассмотрим третий случай - i3-2130 и rx580 2048SP: PC-builds показывает в среднем 60 fps. Уже не так расстраивает, как в первом случае.
+                        Наконец, подходим к 4 случаю: к нашей rx580 2048SP я решил подобрать камень от красных: Ryzen 5 3600. При таком раскладе PC-builds выдаёт 292 fps в среднем, что радует. Как мы видим, сбалансированные сборки выдают примерно в 4-5 раз больше кадров, чем несбалансированные.
+                        Подведём итоги: чтобы подобрать видеокарту к процессору или наоборот советую пользаваться сайтом <a href='https://www.dxdigitals.info/2017/04/podbor-videokarti-pod-processor.html'>Dxdigitals</a>. Он понятен и удобен в использовании. На этом всё. Оставшиеся вопросы задавайте в личные сообщения паблика.</p>
+                        <div class="line-stat-1" style="top: 6070px; left: 0px;"></div>
+            
+                    </div>
+</body>
+<footer class="footer-first-st">
+    <a class="cads-titleFOOT" href="index.html"> Cads </a>
+    <a class="cads-contactsFOOT" href="contacts.html"> Контакты </a>
+    <a class="cads-uslgFOOT" href="services.html"> Услуги </a>
+    <a class="cads-about-usFOOT" href="about-us.html"> О нас </a>
+    <a class="cads-statsFOOT" href="stats.html"> Статьи </a>
+    <a class="vk-aFOOT" href="https://vk.com/cadssites"> 
+        
+      <img class="vk-a-img" src="https://i.imgur.com/ohzImgX.png">
+    </a>
+    <a class="inst-aFOOT" href="https://www.instagram.com/share/BAdoIIs-wH"> 
+        <img class="inst-a-img" src="https://i.imgur.com/sV3othS.png">
+    </a>
+    <div class="copyright">
+        <h1 class="copyright-txt">Copyright © 2020-2024 CadsIT</h1>
+    </div>
+</footer>

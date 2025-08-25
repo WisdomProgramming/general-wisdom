@@ -1,0 +1,180 @@
+.title-of-stat {
+    position: absolute;
+    top: 110px;
+    left: 200px;
+    color: #fff;
+    font-family: "Pusia";
+    font-size: 50px;
+}
+.line-stat-1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 1px;
+    width: 1510px;
+    border-top: 1px solid #868686;
+}
+.author {
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    color: #636363;
+    font-family: "Franklin Gothic Medium";
+    font-size: 30px;
+}
+.gen-text {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    height: 6000px;
+    width: 1510px;
+}
+.first-st-txt {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: #ffffff;
+    font-family: "Franklin Gothic Medium";
+    font-size: 40px;
+}
+.f-img-st-1 {
+    position: relative;
+    top: 0px;
+    float: right;
+    height: 270px;
+    margin-left: 7px;
+    width: 313px;
+}
+.rtx5090 {
+    position: absolute;
+    top: 470px;
+    left: 255px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 15px;
+}
+.rtx5090-l {
+    position: absolute;
+    top: 980px;
+    left: 613px;
+    color: #6b6b6b;
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+    padding-right: 10px;
+}
+.i9 {
+    position: absolute;
+    top: 1025px;
+    left: 320px;
+    width: 870px;
+    height: 720px;
+    border-radius: 15px;
+}
+.I9-l {
+    position: absolute;
+    top: 1755px;
+    left: 613px;
+    color: #6b6b6b;
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+    padding-right: 10px;
+}
+.second-st-txt {
+    position: absolute;
+    top: 1805px;
+    left: 0px;
+    color: #ffffff;
+    font-family: "Franklin Gothic Medium";
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.atermiterx79 {
+    position: absolute;
+    top: 1090px;
+    left: 320px;
+    width: 800px;
+    height: 959px;
+    border-radius: 15px;
+}
+.third-st-txt {
+    position: absolute;
+    top: 3900px;
+    left: 0px;
+    color: #ffffff;
+    font-family: "Franklin Gothic Medium";
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.x79-l {
+    position: absolute;
+    top: 3863px;
+    left: 613px;
+    color: #6b6b6b;
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+}
+.screenshot-e5-2650v4 {
+    position: absolute;
+    top: 400px;
+    left: 255px;
+    width: 1000px;
+    height: 449px;
+    border-radius: 15px;
+}
+.scr-l {
+    position: absolute;
+    top: 4757px;
+    left: 561px;
+    color: #6b6b6b;
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+}
+.fourth-st-txt {
+    position: absolute;
+    top: 4790px;
+    left: 0px;
+    color: #ffffff;
+    font-family: "Franklin Gothic Medium";
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.screenshot-from-site {
+    position: absolute;
+    top: 340px;
+    left: 255px;
+    width: 1000px;
+    height: 449px;
+    border-radius: 15px;
+}
+.scr-fs {
+    position: absolute;
+    top: 5586px;
+    left: 573px;
+    color: #6b6b6b;
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+}
+.fifth-st-txt {
+    position: absolute;
+    top: 5626px;
+    left: 0px;
+    color: #ffffff;
+    font-family: "Franklin Gothic Medium";
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.cads-about-usFOOT {
+    width: 74px;
+}
+.footer-first-st {
+    position: absolute;
+    top: 6400px;
+    background-color: #191a1b;
+    width: 1920px;
+    height: 170px;
+    left: 0px;
+}

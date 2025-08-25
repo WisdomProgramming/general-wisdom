@@ -1,9 +1,5 @@
 html {
     background-color: #212124;
-    overflow-x: hidden;
-}
-.main-container {
-    overflow-x: hidden;
 }
 @font-face {
     font-family: "Pusia";
@@ -1944,3 +1940,4 @@ summary {
     font-size: 35px;
 }
 }
+

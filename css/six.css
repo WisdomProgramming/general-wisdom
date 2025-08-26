@@ -931,7 +931,7 @@ ul {
 /* otz */
 #otzivi {
     position: relative;
-    top: -90px;
+    top: -130px;
     width: 1140px;
     height: 500px;
     animation-duration: 2s;
@@ -1193,7 +1193,7 @@ ul {
 /* answers */
 #answers {
     position: relative;
-    top: 190px;
+    top: -50px;
     width: 1156px;
     height: 700px;
     animation-duration: 2s;
@@ -2066,4 +2066,5 @@ summary {
     width: 300px;
     background-image: url(photos/add-serv-2-440.png);
 }
+
 }

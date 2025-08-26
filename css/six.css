@@ -4,13 +4,16 @@ html {
     width: 100%;
     height: 5000px;
 }
+body {
+    touch-action: pan-y;
+}
 @font-face {
     font-family: "Pusia";
-    src: url(fonts\Pusia-Bold.otf);
+    src: url(Pusia-Bold.otf);
 }
 @font-face {
     font-family: "Franklin Gothic Medium";
-    src: url(fonts\Franklin-Gothic-Medium.ttf);
+    src: url(Franklin-Gothic-Medium.ttf);
 }
 header {
     background-color: #212124 ;
@@ -2067,4 +2070,5 @@ summary {
     width: 300px;
     background-image: url(photos/add-serv-2-440.png);
 }
+
 }

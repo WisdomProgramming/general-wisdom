@@ -3,6 +3,9 @@ html {
     overflow-x: hidden;
     width: 100%;
 }
+body {
+    touch-action: pan-y;
+}
 @font-face {
     font-family: "Pusia";
     src: url(fonts\Pusia-Bold.otf);
@@ -2071,4 +2074,5 @@ summary {
 }
 
 }
+
 

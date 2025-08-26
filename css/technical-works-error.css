@@ -1,9 +1,5 @@
-html {
-    height: 746px;
-}
 body {
     touch-action: pan-y;
-    height: 100%;
 }
 span {
     position: absolute;
@@ -117,4 +113,5 @@ span {
 }
 
 }
+
 

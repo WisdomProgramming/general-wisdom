@@ -1946,6 +1946,9 @@ summary {
 }
 }
 @media (max-width: 440px) and (max-height: 5000px) {
+.footer {
+    top: 7390px;
+}
 .mySwiper1 {
     height: 294px;
     width: 300px;
@@ -2068,3 +2071,4 @@ summary {
 }
 
 }
+

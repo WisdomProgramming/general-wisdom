@@ -10,7 +10,7 @@ span {
 }
 .footer-tech-w {
     position: absolute;
-    top: 576px;
+    bottom: 0;
     height: 170px;
     left: 0%;
     width: 100%;
@@ -113,5 +113,6 @@ span {
 }
 
 }
+
 
 
